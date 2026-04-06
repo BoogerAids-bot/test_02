@@ -1,0 +1,7 @@
+app_name,action,source_ip,dest_ip,domain,port,failed_logins,request_count,is_known_bad_ip,untrusted_file,privilege_request,child_process_spawn,sensitive_file_access
+DemoBrowser,open_url,192.168.1.10,10.0.0.5,safe-site.com,443,0,20,0,0,0,0,0
+DemoBrowser,download_file,192.168.1.10,45.67.89.10,malicious-site.com,443,0,90,1,1,0,0,0
+DemoBrowser,run_downloaded_file,192.168.1.10,45.67.89.10,malicious-site.com,443,1,30,1,1,1,1,1
+ChatClient,login,192.168.1.22,10.0.0.9,chat-app.com,443,6,15,0,0,0,0,0
+UnknownDownloader,download_file,192.168.1.30,10.0.0.7,unknown-download.com,8080,0,120,0,1,0,1,0
+SystemTool,access_sensitive_file,192.168.1.44,10.0.0.20,local-system,135,0,5,0,0,1,0,1

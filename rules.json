@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "type": "block_domain",
+    "value": "malicious-site.com",
+    "enabled": true
+  },
+  {
+    "id": 2,
+    "type": "block_port",
+    "value": 8080,
+    "enabled": true
+  },
+  {
+    "id": 3,
+    "type": "restricted_app",
+    "value": "UnknownDownloader",
+    "enabled": true
+  },
+  {
+    "id": 4,
+    "type": "restricted_action",
+    "value": "run_downloaded_file",
+    "enabled": true
+  }
+]
